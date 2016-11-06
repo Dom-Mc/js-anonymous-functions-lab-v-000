@@ -15,10 +15,20 @@ function randomNumber() {
 }
 
 function menu() {
+  // $('#menu').on('click', h) {
   $('#menu').on('click', function(e) {
     $('#menuOptions').html("You can play a song, pause a song, or view all the songs");
   });
 }
+
+var h = function handleMenuClick(e) {
+  $('#menuOptions').html("You can play a song, pause a song, or view all the songs");
+}
+
+
+
+
+
 
 function play() {
   $('#play').on('click', function(e) {
